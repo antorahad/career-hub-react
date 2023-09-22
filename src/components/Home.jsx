@@ -1,7 +1,13 @@
+import Banner from "./Banner";
+import Categorylist from "./Categorylist";
+import Featured from "./Featured";
+
 const Home = () => {
     return (
         <div>
-            <h1 className="text-7xl font-bold">Home Page</h1>
+            <Banner></Banner>
+            <Categorylist></Categorylist>
+            <Featured></Featured>
         </div>
     );
 };
